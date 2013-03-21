@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<resources>
+<resources> 
+    <string name="usb_toast_connecting">USB连接为 %s.</string>
     <string name="usb_toast_phone_data_disabled">手机数据将被禁用.</string>
     <string name="usb_selection_notification_title">USB连接</string>
-    <string name="usb_selection_notification_message">选择在计算机上管理媒体和数据同步</string>
-    <string name="usb_selection_notification_message_for_modem">点按断开连接后重新启用内部手机数据</string>
+    <string name="usb_selection_notification_message">选择管理您的USB连接</string>
+    <string name="usb_selection_notification_message_for_modem">触摸断开连接并重新启用手机内部数据</string>
+    <string name="usb_tethered_message">当USB网络共享是启用时USB连接模式不能改变</string>
     <string name="usb_connection">USB连接</string>
-    <string name="usb_mode_ngp">摩托罗拉手机门户</string>
+    <string name="usb_mode_ngp">手机门户</string>
     <string name="usb_mode_mtp">Windows媒体同步</string>
-    <string name="usb_mode_msc">USB大容量存储</string>
-    <string name="usb_mode_modem">将手机用作调制解调器</string>
-    <string name="usb_mode_none">无</string>
+    <string name="usb_mode_msc">存储卡存取</string>
+    <string name="usb_mode_rndis">USB网络</string>
+    <string name="usb_mode_modem">手机用作调制解调器</string>
+    <string name="usb_mode_none">仅充电</string>
+    <string name="usb_error_message">USB连接无法改变为 %s.</string>
+    <string name="preparing_ums">正在准备SD卡.</string>
+    <string name="ums_ready">SD卡已通过USB共享.</string>
 </resources>
